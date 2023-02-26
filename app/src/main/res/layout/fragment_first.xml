@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+
+    <TextView
+        android:id="@+id/tv_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="34sp"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_plus_minus"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/red_white"
+        android:text="@string/plius_minus"
+        android:textSize="20sp"
+        app:cornerRadius="45dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:visibility="gone"
+        android:id="@+id/btn_send"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/red_white"
+        android:text="@string/send"
+        android:textSize="20sp"
+        app:cornerRadius="45dp"
+        />
+
+
+</LinearLayout>
